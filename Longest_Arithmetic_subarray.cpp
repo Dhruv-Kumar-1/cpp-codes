@@ -42,7 +42,7 @@ using namespace std;
 //     return 0;
 // }
 
-
+//BHAIYA JI KA CODE!!!!
 int main()
 {
     int n;
@@ -59,13 +59,13 @@ int main()
     while(j<n){
         if(arr[j]-arr[j-1]==diff){
             curr++;
-            // if(ans<curr) ans=curr;
+            // if(ans<curr) ans=curr; //<-mine
         }
         else{
             diff=arr[j]-arr[j-1];
             curr=2;
         }
-        ans=max(ans,curr);
+        // ans=max(ans,curr); //<-bhaiya
         j++;
     }
 
